@@ -110,6 +110,7 @@ body {
 
 .btn-register:hover {
     background-color: #A04000;
+    color: #FFFFFF;
 }
 
 .login-link {
@@ -171,7 +172,7 @@ body, html {
     margin-bottom: 15px;
 }
 
-.btn-login {
+.btn-login-form {
     background-color: #D35400;
     color: white;
     padding: 12px 28px;
@@ -183,8 +184,9 @@ body, html {
     width: 100%;
 }
 
-.btn-login:hover {
+.btn-login-form:hover {
     background-color: #A04000;
+    color: #FFFFFF;
 }
 
 .register-link {

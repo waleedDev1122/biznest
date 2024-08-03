@@ -1,0 +1,986 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-brand .logo {
+    max-height: 40px;
+}
+
+
+.navbar-nav .nav-item {
+    margin: 0 20px;
+}
+
+.nav-item .nav-link {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #475467;
+
+}
+
+.btn-signup {
+    background-color: #D35400;
+    color: white;
+    padding: 12px 28px 12px 28px;
+    text-align: center;
+    gap: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid #D35400;
+}
+
+.btn-signup:hover {
+    background-color: #D35400;
+    color: white;
+}
+
+.btn-login {
+    padding: 12px 28px 12px 28px;
+    text-align: center;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background-color: #FFFFFF;
+    color: #344054;
+    text-decoration: none;
+}
+
+.btn-login:hover {
+    background-color: #FFFFFF;
+    color: #344054;
+}
+
+.header {
+    padding: 5px 0px;
+    border-bottom: 1px solid #F2F4F7;
+
+}
+
+.signup-page {
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.signup-form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.signup-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signup-form .form-label {
+    font-size: 14px;
+    color: #1D2939;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.signup-form .form-control {
+    font-size: 14px;
+    color: #6B7280;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.btn-register {
+    background-color: #D35400;
+    color: white;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid #D35400;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-register:hover {
+    background-color: #A04000;
+}
+
+.login-link {
+    font-size: 14px;
+    color: #6B7280;
+    text-align: center;
+}
+
+.login-link a {
+    color: #D35400;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.login-page {
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.login-form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-form .form-label {
+    font-size: 14px;
+    color: #1D2939;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-form .form-control {
+    font-size: 14px;
+    color: #6B7280;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.btn-login {
+    background-color: #D35400;
+    color: white;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid #D35400;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-login:hover {
+    background-color: #A04000;
+}
+
+.register-link {
+    font-size: 14px;
+    color: #6B7280;
+    text-align: center;
+}
+
+.register-link a {
+    color: #D35400;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+.welcome-section {
+    padding: 60px 0;
+}
+
+.welcome-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1D2939;
+    margin-bottom: 20px;
+}
+
+.welcome-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #475467;
+    margin-bottom: 20px;
+}
+
+.welcome-subdescription {
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 30px;
+}
+
+.welcome-buttons .btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.btn-explore-listings {
+    background-color: #FFFFFF;
+    color: #1D2939;
+    border: 1px solid #D0D5DD;
+}
+
+.btn-explore-listings:hover {
+    background-color: #F3F4F6;
+    color: #1D2939;
+}
+
+
+.services-section {
+    padding: 60px 0;
+}
+
+.services-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 20px;
+}
+
+.services-features-title {
+    font-size: 24px;
+    color: #D35400;
+    margin-bottom: 20px;
+}
+
+.services-for-businesses, .services-for-users {
+    margin-bottom: 40px;
+}
+
+.services-for-businesses h3, .services-for-users h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 10px;
+}
+
+.services-description {
+    font-size: 16px;
+    color: #475467;
+    margin-bottom: 30px;
+}
+
+.service-icon {
+    max-width: 50px;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 14px;
+    color: #475467;
+}
+
+.section-divider {
+    margin: 40px 0;
+    border: 0;
+    border-top: 1px solid #E5E7EB;
+}
+
+
+.business-listing-section {
+    padding: 60px 0;
+}
+
+.business-listing-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.business-listing-description {
+    font-size: 16px;
+    color: #475467;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.business-cards-wrapper {
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.business-cards-container {
+    display: flex;
+    gap: 20px;
+}
+
+.business-card {
+    min-width: 250px;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.business-card-img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.business-card-body {
+    padding: 15px;
+}
+
+.business-card-tags .badge {
+    margin-right: 5px;
+}
+
+.business-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.business-card-description {
+    font-size: 14px;
+    color: #475467;
+    margin-bottom: 10px;
+}
+
+.business-card-location {
+    font-size: 12px;
+    color: #6B7280;
+}
+
+.business-listing-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-see-all-listings {
+    background-color: #D35400;
+    color: white;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid #D35400;
+}
+
+.btn-see-all-listings:hover {
+    background-color: #A04000;
+    color: #FFFFFF !important;
+}
+
+
+.categories-section {
+    padding: 60px 0;
+    background-color: #F9FAFB;
+}
+
+.categories-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 10px;
+}
+
+.categories-subtitle {
+    font-size: 18px;
+    color: #475467;
+    margin-bottom: 30px;
+}
+
+.categories-cards-wrapper {
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.categories-cards-container {
+    display: flex;
+}
+
+.category-card {
+    width: 100%;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 100%;
+}
+
+.category-card-img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.category-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D2939;
+    margin: 15px;
+}
+
+.category-card-link {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: #D35400;
+    text-decoration: none;
+}
+
+.category-card-link:hover {
+    color: #A04000;
+}
+
+.categories-description {
+    font-size: 16px;
+    color: #475467;
+    margin-top: 30px;
+}
+
+.categories-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-see-all-categories {
+    background-color: #D35400;
+    color: white;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid #D35400;
+}
+
+.btn-see-all-categories:hover {
+    background-color: #A04000;
+    color: #FFFFFF;
+}
+
+
+.why-choose-section {
+    padding: 60px 0;
+}
+
+.why-choose-subtitle {
+    font-size: 18px;
+    color: #D35400;
+    margin-bottom: 10px;
+}
+
+.why-choose-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 10px;
+}
+
+.why-choose-description {
+    font-size: 16px;
+    color: #475467;
+    margin-bottom: 40px;
+}
+
+.why-choose-icon {
+    max-width: 50px;
+    margin-bottom: 15px;
+}
+
+.why-choose-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 10px;
+}
+
+.why-choose-card-description {
+    font-size: 14px;
+    color: #475467;
+}
+
+
+.join-biznest-section {
+    padding: 60px 0;
+    background-color: #F9FAFB;
+}
+
+.join-biznest-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 20px;
+}
+
+.join-biznest-description {
+    font-size: 16px;
+    color: #475467;
+    margin-bottom: 30px;
+}
+
+.join-biznest-buttons .btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.btn-learn-more {
+    background-color: #FFFFFF;
+    color: #1D2939;
+    border: 1px solid #D0D5DD;
+}
+
+.btn-learn-more:hover {
+    background-color: #F3F4F6;
+    color: #1D2939;
+}
+
+.btn-get-started {
+    background-color: #D35400;
+    color: white;
+    border: 1px solid #D35400;
+}
+
+.btn-get-started:hover {
+    background-color: #A04000;
+    color: #FFFFFF;
+}
+
+
+.get-in-touch-section {
+    padding: 60px 0;
+}
+
+.get-in-touch-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 10px;
+}
+
+.get-in-touch-description {
+    font-size: 16px;
+    color: #475467;
+    margin-bottom: 30px;
+}
+
+.get-in-touch-form .form-label {
+    font-size: 14px;
+    color: #1D2939;
+    margin-bottom: 5px;
+}
+
+.get-in-touch-form .form-control {
+    font-size: 14px;
+    color: #6B7280;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.get-in-touch-form .form-check-label a {
+    color: #D35400;
+    text-decoration: none;
+}
+
+.get-in-touch-form .form-check-label a:hover {
+    text-decoration: underline;
+}
+
+.btn-send-message {
+    background-color: #D35400;
+    color: white;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid #D35400;
+    text-decoration: none;
+}
+
+.btn-send-message:hover {
+    background-color: #A04000;
+    color: #FFFFFF;
+}
+
+
+.business-listing-page {
+    padding: 60px 0;
+}
+
+.business-listing-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 20px;
+}
+
+.business-listing-description {
+    font-size: 16px;
+    color: #475467;
+    margin-bottom: 30px;
+}
+
+.search-filter-bar {
+    margin-bottom: 30px;
+}
+
+.search-input {
+    width: 60%;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.pagination-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination-wrapper .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.pagination-wrapper span {
+    font-size: 16px;
+    color: #475467;
+}
+
+
+.category-listing-page {
+    padding: 60px 0;
+}
+
+.category-listing-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 20px;
+}
+
+.category-listing-description {
+    font-size: 16px;
+    color: #475467;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    margin-bottom: 30px;
+}
+
+.category-search-input {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.business-profile-creation-page {
+    padding: 60px 0;
+}
+
+.profile-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 20px;
+}
+
+.profile-description {
+    font-size: 16px;
+    color: #475467;
+    margin-bottom: 30px;
+}
+
+.profile-section-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.profile-form .form-label {
+    font-size: 14px;
+    color: #1D2939;
+    margin-bottom: 5px;
+}
+
+.profile-form .form-control {
+    font-size: 14px;
+    color: #6B7280;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profile-picture-upload {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture-upload img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.gallery-upload {
+    border: 2px dashed #D0D5DD;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.gallery-upload label {
+    display: block;
+    color: #6B7280;
+    font-size: 14px;
+}
+
+.gallery-images .img-fluid {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.btn-add {
+    background-color: #FFFFFF;
+    color: #D35400;
+    border: 1px solid #D35400;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-add:hover {
+    background-color: #F3F4F6;
+}
+
+.btn-save {
+    background-color: #D35400;
+    color: white;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid #D35400;
+    text-decoration: none;
+}
+
+.btn-save:hover {
+    background-color: #A04000;
+    color: #FFFFFF;
+}
+
+
+.business-profile-view-page {
+    padding: 60px 0;
+}
+
+.profile-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card-header {
+    padding: 20px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D2939;
+}
+
+.profile-category {
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 10px;
+}
+
+.profile-established, .profile-location {
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.profile-card-body {
+    padding: 20px;
+}
+
+.contact-details h4, .location h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 15px;
+}
+
+.contact-details p {
+    font-size: 14px;
+    color: #475467;
+    margin-bottom: 10px;
+}
+
+.btn-visit-website, .btn-send-email {
+    background-color: #D35400;
+    color: white;
+    padding: 12px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.btn-visit-website:hover, .btn-send-email:hover {
+    background-color: #A04000;
+}
+
+.map {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.about h3, .services-offered h3, .gallery h3, .operating-hours h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 14px;
+    color: #475467;
+    margin-bottom: 10px;
+}
+
+.service-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.service-card h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1D2939;
+    margin-bottom: 5px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #475467;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.operating-hours table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.operating-hours table td {
+    padding: 10px;
+    border-bottom: 1px solid #E5E7EB;
+    font-size: 14px;
+    color: #475467;
+}
+
+
+
+
+.footer-section {
+    padding: 40px 0;
+    background-color: #FFFFFF;
+    border-top: 1px solid #E5E7EB;
+}
+
+.footer-logo-img {
+    max-height: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links .list-inline-item {
+    margin: 0 10px;
+}
+
+.footer-links .list-inline-item a {
+    color: #475467;
+    text-decoration: none;
+}
+
+.footer-links .list-inline-item a:hover {
+    text-decoration: underline;
+}
+
+.footer-terms {
+    margin-top: 10px;
+}
+
+.footer-terms .list-inline-item {
+    margin: 0 10px;
+}
+
+.footer-terms .list-inline-item a {
+    color: #6B7280;
+    text-decoration: none;
+}
+
+.footer-terms .list-inline-item a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    margin: 20px 0;
+}
+
+.footer-copyright {
+    color: #6B7280;
+    font-size: 14px;
+}

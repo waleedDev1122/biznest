@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biznest - Categories</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="/">
+                    <img src="assets/images/common/Logo.svg" alt="Biznest Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/business-listing">Business Listing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/category-listing">Categories</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex">
+                    <a class="btn-login me-2" href="/login">Login</a>
+                    <a class="btn-signup" href="/signup">Sign up</a>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="category-listing-page">
+        <div class="container">
+            <h2 class="category-listing-title">Search Categories</h2>
+            <p class="category-listing-description">Here are some of the top categories for you.</p>
+            
+            <div class="search-bar mb-5">
+                <input type="text" class="form-control category-search-input" placeholder="Search">
+            </div>
+            
+            <div class="row">
+                <!-- Repeat this block for more category cards -->
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/retail-and-shopping.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Retail & Shopping</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/food-and-bevrages.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Food & Beverages</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/health-and-wellness.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Health & Wellness</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/professional-services.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Professional Services</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/home-services.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Home Services</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/automotive.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Automotive</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/education-and-training.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Education & Training</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/entertainment-and-media.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Entertainment & Media</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/travel-and-tourism.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Travel & Tourism</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/technlogy-and-it.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Technology & IT Services</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/art-and-craft.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Arts & Crafts</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="category-card">
+                        <img src="assets/images/categories/pets-and-animals.png" alt="Category Image" class="category-card-img">
+                        <h5 class="category-card-title">Pets & Animals</h5>
+                    </div>
+                </div>
+                <!-- Repeat block ends -->
+            </div>
+
+        </div>
+    </section>
+    
+    
+    
+    <section class="join-biznest-section text-center">
+        <div class="container">
+            <h2 class="join-biznest-title">Join Biznest Today!</h2>
+            <p class="join-biznest-description">
+                Whether you're a business aiming to grow or a user looking for trusted services, Biznest is the perfect platform for you. Sign up now and experience the ease of connecting with Trinidad & Tobago's businesses like never before.
+            </p>
+            <div class="join-biznest-buttons">
+                <a href="#" class="btn btn-learn-more">Learn more</a>
+                <a href="#" class="btn btn-get-started">Get started</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container text-center">
+            <a class="footer-logo" href="#">
+                <img src="assets/images/common/Logo.svg" alt="Biznest Logo" class="footer-logo-img">
+            </a>
+            <ul class="footer-links list-inline">
+                <li class="list-inline-item"><a href="/">Home</a></li>
+                <li class="list-inline-item"><a href="/business-listing">Business Listing</a></li>
+                <li class="list-inline-item"><a href="/category-listing">Categories</a></li>
+                <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                <li class="list-inline-item"><a href="#">Help</a></li>
+            </ul>
+            <hr>
+            <p class="footer-copyright">
+                &copy; 2024 BIZNEST. All rights reserved.
+            </p>
+            <ul class="footer-terms list-inline">
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Cookies</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
